@@ -1,0 +1,13 @@
+{
+  "name": "Recursion Coding Problem Timer",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://recursionist.io/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+
+
+}
